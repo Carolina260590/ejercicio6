@@ -1,0 +1,102 @@
+body, main{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(136, 9, 240);
+}
+.container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(174, 145, 221);;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.icon{
+    width: 40px;
+    padding: 3px;
+    margin-left: 40%;
+    color: rgb(7, 6, 6);
+    background: wheat;
+    border-radius: 20px;
+}
+.container .cont-info{
+    margin: 10px;
+}
+.container h2{
+    width: 100%;
+    text-align: center;
+    color:  rgb(7, 7, 7);
+    font-size: 20px;
+}
+.container p{
+    width: 100%;
+    text-align: center;
+    color:  rgb(7, 7, 7);
+    font-size: 16px;
+}
+.container a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:  rgb(7, 7, 7);
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 12px;
+    font-weight: bold;
+}
+.container2 {
+    width: 73%;
+    height: 250px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(240, 167, 236);
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.container2 .cont-info{
+    margin:0;
+    text-align: center;
+
+}
+.container2 h2{
+    text-align: center;
+    color: rgb(7, 7, 7)(94, 1, 117);
+    font-size: 25px;
+    margin: 0;
+}
+.container2 h3{
+    position: relative;
+    top: 16px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    margin-right: 2px;
+}
+.container2 p{
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color:  rgb(7, 7, 7);
+
+}
+ .container2 button{
+     width: 25%;
+     padding: 5px;
+     border-radius: 5px;
+    /* margin-left: 38%;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background:rgb(186, 61, 211) ;
+    color:  rgb(7, 7, 7);
+    border: none;
+}
+.container2 button:hover{
+    background:w rgb(7, 7, 7);
+    color:rgb(62, 62, 185);
+
+}
